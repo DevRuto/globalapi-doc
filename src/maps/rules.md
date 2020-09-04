@@ -1,6 +1,6 @@
 # Rules
 
-## The following standards apply to new maps when they are considered by the Map Approval Team for the global map pool.
+### The following standards apply to new maps when they are considered by the Map Approval Team for the global map pool.
 
 1. Must have working start and end timers/timer zones, be completable in at least one mode, and all timers/timer zones must be indicated and/or reasonably discoverable.
 2. Must be finished with a reasonable display of effort (textured, well lit, evidence of design process, no performance issues).
