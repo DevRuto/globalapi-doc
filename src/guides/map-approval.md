@@ -4,7 +4,7 @@ Having your map globally approved means it'll be put into a global map list maki
 
 **NOTE:** Only the mapper can request for their map to be globalled.
 
-1. Mapper starts map and considers [The Global Map Standards](https://forum.gokz.org/p/map-standards)
+1. Mapper starts map and considers <a :href="$withBase('/map/rules')">The Global Map Standards</a>
 2. Mapper releases test versions and has someone test it. Maybe the [KZ Mapping discord](https://discord.gg/uuxesuC), thread on the forums or the [CSGO KZ discord](https://discord.gg/csgokz).
 3. Mapper feels their map is done and uploads it to the workshop. [Tutorial.](https://www.youtube.com/watch?v=8_OWul0E4dY)
 4. Mapper goes to [the forums](http://forum.gokz.org) and submit their map. Read how to below.
