@@ -67,5 +67,18 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
-  ]
+  ],
+
+  locales: {
+    '/': {
+      lang: 'en-US',
+      title: 'GlobalAPI Wiki',
+      description: description
+    },
+    '/zh/': {
+      lang: 'zh-CN',
+      title: 'GlobalAPI Wiki',
+      description: 'GlobalAPI 文檔'
+    }
+  }
 }
