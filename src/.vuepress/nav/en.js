@@ -1,5 +1,9 @@
 module.exports = [
   {
+    text: 'Guides',
+    link: '/guides/'
+  },
+  {
     text: 'Maps',
     link: '/maps/',
   },
