@@ -33,20 +33,16 @@ module.exports = {
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
-    nav: [
-      {
-        text: 'Guide',
-        link: '/guide/',
+    locales: {
+      '/': {
+        label: 'English',
+        nav: require('./nav/en.js')
       },
-      {
-        text: 'Config',
-        link: '/config/'
-      },
-      {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
+      '/zh/': {
+        label: '中文',
+        nav: require('./nav/zh.js')
       }
-    ],
+    },
     sidebar: {
       '/guide/': [
         {
