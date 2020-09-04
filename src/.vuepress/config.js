@@ -36,25 +36,15 @@ module.exports = {
     locales: {
       '/': {
         label: 'English',
-        nav: require('./nav/en.js')
+        nav: require('./nav/en.js'),
+        sidebar: require('./sidebar/en.js')
       },
       '/zh/': {
         label: '中文',
-        nav: require('./nav/zh.js')
+        nav: require('./nav/zh.js'),
+        sidebar: require('./sidebar/zh.js')
       }
     },
-    sidebar: {
-      '/guide/': [
-        {
-          title: 'Guide',
-          collapsable: false,
-          children: [
-            '',
-            'using-vue',
-          ]
-        }
-      ],
-    }
   },
 
   /**

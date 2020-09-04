@@ -1,7 +1,3 @@
----
-sidebar: auto
----
+# Maps
 
-# Map
-
-Check out the [rules](./rules)
+hello
