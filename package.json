@@ -1,0 +1,19 @@
+{
+  "name": "globalapi-doc",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "authors": {
+    "name": "Ruto",
+    "email": ""
+  },
+  "repository": "https://bitbucket.org/kztimerglobalteam/globalapi-doc/globalapi-doc",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
