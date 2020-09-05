@@ -1,4 +1,4 @@
-# Rules
+# Mapping Rules
 
 ### The following standards apply to new maps when they are considered by the Map Approval Team for the global map pool.
 

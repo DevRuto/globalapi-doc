@@ -1,11 +1,10 @@
 module.exports = {
-  '/maps/': [
+  '/mapping/': [
     {
-      title: 'Maps',
+      title: 'Mapping',
       collapsable: false,
       children: [
-        ['', 'Intro'],
-        'rules'
+        ['map-rules', 'Rules']
       ]
     },
   ],

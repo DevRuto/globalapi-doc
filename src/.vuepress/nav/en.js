@@ -4,8 +4,8 @@ module.exports = [
     link: '/guides/'
   },
   {
-    text: 'Maps',
-    link: '/maps/',
+    text: 'Mapping',
+    link: '/mapping/',
   },
   {
     text: 'VuePress',
