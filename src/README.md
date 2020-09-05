@@ -1,4 +1,3 @@
 # Introduction
 
-hello2
-<demo-component/>
+<Redirect to="guides" />
