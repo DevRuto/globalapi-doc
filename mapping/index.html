@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Maps | GlobalAPI Wiki</title>
+    <meta name="generator" content="VuePress 1.5.4">
+    
+    <meta name="description" content="">
+    <meta name="theme-color" content="#3eaf7c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="preload" href="/globalapi-doc/assets/css/0.styles.5efd71ea.css" as="style"><link rel="preload" href="/globalapi-doc/assets/js/app.0807be6d.js" as="script"><link rel="preload" href="/globalapi-doc/assets/js/2.c86c3bb2.js" as="script"><link rel="preload" href="/globalapi-doc/assets/js/15.c355d2c8.js" as="script"><link rel="preload" href="/globalapi-doc/assets/js/7.066d2f48.js" as="script"><link rel="prefetch" href="/globalapi-doc/assets/js/10.da77c21e.js"><link rel="prefetch" href="/globalapi-doc/assets/js/11.c4488c7f.js"><link rel="prefetch" href="/globalapi-doc/assets/js/12.c4aa994d.js"><link rel="prefetch" href="/globalapi-doc/assets/js/13.1dfdef8b.js"><link rel="prefetch" href="/globalapi-doc/assets/js/14.2d43c78f.js"><link rel="prefetch" href="/globalapi-doc/assets/js/16.d873dc3e.js"><link rel="prefetch" href="/globalapi-doc/assets/js/17.70cb1c44.js"><link rel="prefetch" href="/globalapi-doc/assets/js/18.a2800f7c.js"><link rel="prefetch" href="/globalapi-doc/assets/js/19.2919ec19.js"><link rel="prefetch" href="/globalapi-doc/assets/js/3.86c86525.js"><link rel="prefetch" href="/globalapi-doc/assets/js/4.5ed19beb.js"><link rel="prefetch" href="/globalapi-doc/assets/js/5.fe6f716a.js"><link rel="prefetch" href="/globalapi-doc/assets/js/6.4b140196.js"><link rel="prefetch" href="/globalapi-doc/assets/js/8.fb938207.js"><link rel="prefetch" href="/globalapi-doc/assets/js/9.725325bd.js">
+    <link rel="stylesheet" href="/globalapi-doc/assets/css/0.styles.5efd71ea.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/globalapi-doc/" class="home-link router-link-active"><!----> <span class="site-name">GlobalAPI Wiki</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/globalapi-doc/guides/" class="nav-link">
+  Guides
+</a></div><div class="nav-item"><a href="/globalapi-doc/mapping/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Mapping
+</a></div><div class="nav-item"><a href="https://v1.vuepress.vuejs.org" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  VuePress
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://www.youtube.com/c/kzclimbcsgo" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  YouTube
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://discord.gg/csgokz" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Discord
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Select language" class="dropdown-title"><span class="title">Languages</span> <span class="arrow down"></span></button> <button type="button" aria-label="Select language" class="mobile-dropdown-title"><span class="title">Languages</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/globalapi-doc/mapping/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  English
+</a></li><li class="dropdown-item"><!----> <a href="/globalapi-doc/zh/" class="nav-link">
+  中文
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/globalapi-doc/guides/" class="nav-link">
+  Guides
+</a></div><div class="nav-item"><a href="/globalapi-doc/mapping/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Mapping
+</a></div><div class="nav-item"><a href="https://v1.vuepress.vuejs.org" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  VuePress
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://www.youtube.com/c/kzclimbcsgo" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  YouTube
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://discord.gg/csgokz" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Discord
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Select language" class="dropdown-title"><span class="title">Languages</span> <span class="arrow down"></span></button> <button type="button" aria-label="Select language" class="mobile-dropdown-title"><span class="title">Languages</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/globalapi-doc/mapping/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  English
+</a></li><li class="dropdown-item"><!----> <a href="/globalapi-doc/zh/" class="nav-link">
+  中文
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Mapping</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/globalapi-doc/mapping/map-rules.html" class="sidebar-link">Rules</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="maps"><a href="#maps" class="header-anchor">#</a> Maps</h1> <div></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/globalapi-doc/assets/js/app.0807be6d.js" defer></script><script src="/globalapi-doc/assets/js/2.c86c3bb2.js" defer></script><script src="/globalapi-doc/assets/js/15.c355d2c8.js" defer></script><script src="/globalapi-doc/assets/js/7.066d2f48.js" defer></script>
+  </body>
+</html>
