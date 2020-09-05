@@ -1,6 +1,7 @@
-const { description } = require('../../package')
+const { description } = require('../../package');
+const resolve = require("vuepress-theme-hope/resolve");
 
-module.exports = {
+module.exports = resolve({
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
@@ -33,6 +34,7 @@ module.exports = {
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
+    baseLang: 'en-US',
     locales: {
       '/': {
         label: 'English',
@@ -67,4 +69,4 @@ module.exports = {
       description: 'GlobalAPI 文檔'
     }
   }
-}
+})
