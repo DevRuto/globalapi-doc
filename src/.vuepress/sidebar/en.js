@@ -1,6 +1,13 @@
 module.exports = {
   '/mapping/': [
     {
+      title: 'Releases',
+      collapsable: true,
+      children: [
+        ['release/sep072020', 'September 7, 2020']
+      ]
+    },
+    {
       title: 'Mapping',
       collapsable: false,
       children: [
