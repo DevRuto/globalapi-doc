@@ -1,12 +1,12 @@
 const { description } = require('../../package');
-const resolve = require("vuepress-theme-hope/resolve");
 
-module.exports = resolve({
+module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
   title: 'GlobalAPI Wiki',
   base: '/globalapi-doc/',
+  theme: 'yuu',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -69,4 +69,4 @@ module.exports = resolve({
       description: 'GlobalAPI 文檔'
     }
   }
-})
+}
