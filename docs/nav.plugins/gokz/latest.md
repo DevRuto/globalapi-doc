@@ -1,0 +1,6 @@
+# GOKZ 2.11.1 - 2020/10/22
+
+* Fixed bug that would crash windows servers
+* Fixed bug that would sometimes allow for wallstrafes to count as a valid jumpstat
+* Fixed bug where using `!spec` with exactly two players in the server would cause you to spectate yourself
+* Improved anticheat bind detection

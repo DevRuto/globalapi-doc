@@ -37,9 +37,7 @@ module.exports = {
     baseLang: 'en-US',
     locales: {
       '/': {
-        label: 'English',
-        nav: require('./nav/en.js'),
-        sidebar: require('./sidebar/en.js')
+        label: 'English'
       }
     },
   },
@@ -50,6 +48,7 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
+    'autobar'
   ],
 
   locales: {
