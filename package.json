@@ -9,14 +9,15 @@
   },
   "repository": "https://github.com/DevRuto/globalapi-doc",
   "scripts": {
-    "dev": "vuepress dev src",
-    "build": "vuepress build src"
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
   },
   "license": "MIT",
   "devDependencies": {
     "vuepress": "^1.5.3"
   },
   "dependencies": {
+    "vuepress-plugin-autobar": "boboidream/vuepress-bar",
     "vuepress-theme-yuu": "^2.3.0"
   }
 }
