@@ -4,7 +4,8 @@ module.exports = {
       title: 'Releases',
       collapsable: true,
       children: [
-        ['release/sep072020', 'September 7, 2020']
+        ['release/sep072020', 'September 7, 2020'],
+        ['release/oct022020', 'October 2, 2020']
       ]
     },
     {
