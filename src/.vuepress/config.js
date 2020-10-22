@@ -40,11 +40,6 @@ module.exports = {
         label: 'English',
         nav: require('./nav/en.js'),
         sidebar: require('./sidebar/en.js')
-      },
-      '/zh/': {
-        label: '中文',
-        nav: require('./nav/zh.js'),
-        sidebar: require('./sidebar/zh.js')
       }
     },
   },
@@ -62,11 +57,6 @@ module.exports = {
       lang: 'en-US',
       title: 'GlobalAPI Wiki',
       description: description
-    },
-    '/zh/': {
-      lang: 'zh-CN',
-      title: 'GlobalAPI Wiki',
-      description: 'GlobalAPI 文檔'
     }
   }
 }
