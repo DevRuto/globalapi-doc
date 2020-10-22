@@ -1,4 +1,4 @@
 # Plugin Releases
 
 ## GOKZ
-[Latest](./gokz/latest)
+[Latest](./gokz/2.11.1)
