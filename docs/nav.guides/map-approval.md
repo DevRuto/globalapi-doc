@@ -27,8 +27,11 @@ Modes it's possible on: KZT, SKZ.
 Courses: 1
 Tier: 4
 Length: Around 1:10 for fast people, 3 min average.
+I have matched my map against Map Approval criteria before submitting this form: Yes/No
 
 If you don't know which modes it's possible on, just say that.
+
+
 **What are courses?**
 Let’s say you have one main start and end timer, and two bonus start and end timers you would have 3 courses.
 Tier is a number between 1-6 where 1 is the easiest and 6 is the hardest. Follow this guide if you’re not sure.
@@ -39,5 +42,6 @@ Tier is a number between 1-6 where 1 is the easiest and 6 is the hardest. Follow
 4. _Intended for experienced players only. Starts really requiring strafes and 'basic' tech._
 5. _Experienced players may get stuck. Requires decent knowledge of advanced techniques._
 6. _Challenge maps requiring well-executed tech, high quality strafes and/or everything else throughout._
+7. _Requires near flawless execution and technical precision throughout, employs any and all advanced techniques._
 
 Let us know in the [Feedback tag](https://forum.gokz.org/t/fb) or in the [CSGO KZ Discord](https://discord.gg/csgokz) of any issues, concerns or questions.
